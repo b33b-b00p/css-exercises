@@ -44,3 +44,20 @@ input {
   align-items: center;
   justify-content: center;
 }
+
+.left-links,
+.right-links {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+  column-gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(102, 101, 101);
+}
