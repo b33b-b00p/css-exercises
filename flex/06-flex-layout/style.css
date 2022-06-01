@@ -36,6 +36,7 @@ input {
   justify-content: space-between;
   align-items: center;
   width: -webkit-fill-available;
+  padding: 0px 10px;
 }
 
 .content {
@@ -53,11 +54,14 @@ input {
 ul {
   list-style-type: none;
   padding: 0;
-  margin: 10px;
   column-gap: 10px;
 }
 
 a {
   text-decoration: none;
   color: rgb(102, 101, 101);
+}
+
+.footer {
+  background-color: #eeeeee;
 }
